@@ -1,0 +1,87 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url("space.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+#navbari ul{
+    list-style-type: none;
+    float:right;
+    margin-top: 40px;
+}
+#navbari li{
+    display: inline;
+}
+#navbari a{
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 500;
+    color: #fff;
+    padding:5px 20px;
+    border:2px solid transparent;
+    margin: 20px;
+    transition: 0.5s;
+
+}
+#navbari a:hover{
+
+    font-size: x-large;
+    font-weight: 500;
+    color:black;
+    padding:10px 30px;
+    border:2px solid #fff;
+    margin: 20px;
+    background: white;
+
+
+}
+.container{
+    margin-top: 300px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.box{
+    width:500px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: none;
+    text-align: center;
+
+}
+.box h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+
+}
+.box input[type = "text"],.box input[type = "password"]{
+    border: 0;
+    background: none;
+    margin: 20px auto;
+    display: block;
+    text-align: center;
+    border: 3px solid #3498db;
+    padding:14px 10px;
+    width:200px;
+    outline:none;
+    color:white;
+    border-radius:  24px;
+    transition: 0.25s;
+}
+.box input[type = "text"]:focus,.box input[type = "password"]:focus{
+    width:280px;
+    border-color: #2ecc71;
+}  
+img{
+    height: 550px;
+}
