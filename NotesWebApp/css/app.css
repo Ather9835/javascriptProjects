@@ -1,0 +1,25 @@
+body{
+    background: #282828;
+    background: linear-gradient(-45deg,#EE7752,#E73C7E,#23A6D5,#23D5AB);
+    animation: Gradient 15s ease infinite;
+    margin: 0px;
+    padding: 0px;
+}
+.contain{
+    min-width: 0px;
+    width: 100%;
+}
+
+.sidebar{
+    width: 250px;
+    transition: all 0.5s;
+
+}
+
+.sidebar-heading{
+    
+    padding: 6px;
+    text-align: center;
+    font-size: large;
+
+}
